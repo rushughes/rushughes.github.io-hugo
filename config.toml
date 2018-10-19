@@ -1,6 +1,6 @@
 baseURL = "https://rushughes.github.io/"
 languageCode = "en-us"
-title = "Rus Hughes GitHub IO"
+title = "Rus Hughes"
 theme = "coder"
 
 paginate = 20

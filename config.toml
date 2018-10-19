@@ -78,6 +78,11 @@ pygmentscodefencesguesssyntax = true
     icon = "fas fa-share-alt-square fa-2x"
     weight = 3
     url = "https://stackshare.io/rushughes"
+[[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase fa-2x"
+    weight = 3
+    url = "https://keybase.io/rushughes"
 
 
 # Menu links

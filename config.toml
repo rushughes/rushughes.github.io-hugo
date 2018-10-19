@@ -1,3 +1,91 @@
-baseURL = "http://example.org/"
+baseURL = "https://rushughes.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Rus Hughes GitHub IO"
+theme = "coder"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Rus Hughes"
+    info = "Founder and CTO"
+    description = "Rus Hughes' social profile"
+    keywords = "rus hughes, cto, entrepreneur"
+    avatarurl = "images/rus-square.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    #footercontent = "Enter a text here."
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/rushughes/"
+[[params.social]]
+    name = "Linked In"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/rushughes"
+[[params.social]]
+    name = "rus.io"
+    icon = "fas fa-globe fa-2x"
+    weight = 3
+    url = "https://rus.io"
+[[params.social]]
+    name = "Angel List"
+    icon = "fab fa-angellist fa-2x"
+    weight = 3
+    url = "https://angel.co/rushughes"
+[[params.social]]
+    name = "About Me"
+    icon = "fas fa-user fa-2x"
+    weight = 3
+    url = "https://about.me/rushughes"
+[[params.social]]
+    name = "Mastodon"
+    icon = "fab fa-mastodon fa-2x"
+    weight = 3
+    url = "https://mastodon.technology/@rus"
+[[params.social]]
+    name = "Stack Overflow"
+    icon = "fab fa-stack-overflow fa-2x"
+    weight = 3
+    url = "https://stackoverflow.com/users/181737/rushughes"
+[[params.social]]
+    name = "Goodreads"
+    icon = "fab fa-goodreads fa-2x"
+    weight = 3
+    url = "https://www.goodreads.com/rushughes"
+[[params.social]]
+    name = "Stackshare"
+    icon = "fas fa-share-alt-square fa-2x"
+    weight = 3
+    url = "https://stackshare.io/rushughes"
+
+
+# Menu links
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "/posts/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about/"
